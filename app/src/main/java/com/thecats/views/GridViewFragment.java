@@ -27,7 +27,6 @@ import java.util.List;
 
 public class GridViewFragment extends Fragment {
 
-    private GridViewViewModel mViewModel;
 
     public static GridViewFragment newInstance() {
         return new GridViewFragment();
@@ -68,7 +67,7 @@ public class GridViewFragment extends Fragment {
             binding.imgView.setVisibility(View.VISIBLE);
 
         if (isNetworkAvailable())
-            MainActivity.listViewViewModel.getDatumMutableLiveData().observe(requireActivity(), userListUpdateObserverGridView);
+            MainActivity.gridViewViewModel.getDatumMutableLiveData().observe(requireActivity(), userListUpdateObserverGridView);
         else
             Toast.makeText(requireActivity(), requireActivity().getResources().getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
 

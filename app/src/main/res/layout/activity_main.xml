@@ -19,11 +19,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="?android:attr/windowBackground"
+            android:background="@color/orange"
             android:foreground="?attr/selectableItemBackground"
             app:itemBackground="@color/bgBottomNavigation"
-            app:itemIconTint="@android:color/white"
-            app:itemTextColor="@android:color/white"
-            app:menu="@menu/bottombar_menu_4items" />
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/bottombar_menu_4items"
+            app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+            app:itemTextAppearanceInactive="@style/BottomNavigationView"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
