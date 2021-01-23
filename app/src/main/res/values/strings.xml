@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheCats</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="view_pager">View Pager</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="no_internet">"No internet connection. Please try again."</string>
+    <string name="new_posts_tap_to_refresh_feed">New posts. Tap to refresh feed.</string>
+</resources>
